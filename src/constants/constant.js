@@ -1,0 +1,14 @@
+export const REGISTRATION_END_POINT = 'auth/signup';
+export const LOGIN_END_POINT = 'auth/login';
+export const LOGIN = '/';
+export const PASSWORD_RESET= '/password-reset';
+export const NEW_PASSWORD= '/new-password';
+export const SEND_OTP_END_POINT = 'auth/send-otp';
+export const MATCH_OTP_END_POINT = 'auth/match-otp';
+export const RESET_PASSWORD_END_POINT= 'auth/resetPass';
+export const FCM_TOKEN= process.env.REACT_APP_FCM_TOKEN
+export const CLIENT_ID= process.env.REACT_APP_CLIENT_ID
+export const IMAGE_BASE_URL= process.env.REACT_APP_IMAGE_URL
+export const DISPOSABLE_EMAIL_API1="https://disposable.debounce.io"
+export const SOCIAL_SIGNUP_END_POINT= 'auth/social-signup';
+export const LEAD = '/lead'; 
